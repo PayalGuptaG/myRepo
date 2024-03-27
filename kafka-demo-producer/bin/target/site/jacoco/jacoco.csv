@@ -1,0 +1,6 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+kafka-demo-producer,com.kafka.demo.producer.utils,DataValidator,54,78,2,10,10,17,6,7,4,3
+kafka-demo-producer,com.kafka.demo.producer.utils,Utility,5,44,1,5,1,11,2,7,1,5
+kafka-demo-producer,com.kafka.demo.producer.service,KafkaProducer,10,41,0,0,3,14,0,3,0,3
+kafka-demo-producer,com.kafka.demo.producer.controller,KafkaController,0,14,0,0,0,5,0,2,0,2
+kafka-demo-producer,com.kafka.demo.producer.exception.handler,GlobalExceptionHandler,54,0,2,0,12,0,5,0,4,0

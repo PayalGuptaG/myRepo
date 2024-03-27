@@ -1,0 +1,15 @@
+com\kafka\demo\producer\dto\Statement.class
+com\kafka\demo\producer\config\KafkaConfig.class
+com\kafka\demo\producer\KafkaDemoProducerApplication.class
+com\kafka\demo\producer\dto\CustomerInfo.class
+com\kafka\demo\producer\controller\KafkaController.class
+com\kafka\demo\producer\dto\ErrorResponse.class
+com\kafka\demo\producer\utils\DataValidator.class
+com\kafka\demo\producer\exception\KafkaException.class
+com\kafka\demo\producer\service\KafkaProducer.class
+com\kafka\demo\producer\constants\Constants.class
+com\kafka\demo\producer\exception\DataValidationException.class
+com\kafka\demo\producer\utils\Utility.class
+com\kafka\demo\producer\exception\handler\GlobalExceptionHandler.class
+com\kafka\demo\producer\dto\ErrorResponse$ValidationError.class
+com\kafka\demo\producer\dto\Customer.class

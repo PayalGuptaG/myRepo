@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Utility.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">kafka-demo-producer</a> &gt; <a href="index.source.html" class="el_package">com.kafka.demo.producer.utils</a> &gt; <span class="el_source">Utility.java</span></div><h1>Utility.java</h1><pre class="source lang-java linenums">package com.kafka.demo.producer.utils;
+
+import java.time.LocalDate;
+import java.time.ZoneId;
+import java.time.format.DateTimeFormatter;
+import java.util.Set;
+import java.util.function.Predicate;
+
+import com.kafka.demo.producer.dto.Statement;
+
+<span class="nc" id="L11">public class Utility {</span>
+
+	public static Predicate&lt;Statement&gt; validTransactionDatePredicate() {
+<span class="fc bfc" id="L14" title="All 2 branches covered.">		Predicate&lt;Statement&gt; validTransactionDate = record -&gt; !isDateFuture(record.getTransactionDate(), &quot;yyyy-MM-dd&quot;);</span>
+<span class="fc" id="L15">		return validTransactionDate;</span>
+	}
+
+	// predicate for unique reference check
+	public static Predicate&lt;Statement&gt; duplicateReferencePredicate(Set&lt;Statement&gt; fileRecordSet) {
+<span class="fc bfc" id="L20" title="All 2 branches covered.">		Predicate&lt;Statement&gt; validReference = record -&gt; !fileRecordSet.add(record);</span>
+<span class="fc" id="L21">		return validReference;</span>
+	}
+
+	public static boolean isDateFuture(final String date, final String dateFormat) {
+<span class="fc" id="L25">		boolean isFutureDate = false;</span>
+<span class="fc" id="L26">		LocalDate localDate = LocalDate.now(ZoneId.systemDefault());</span>
+
+<span class="fc" id="L28">		DateTimeFormatter dtf = DateTimeFormatter.ofPattern(dateFormat);</span>
+<span class="fc" id="L29">		LocalDate inputDate = LocalDate.parse(date, dtf);</span>
+<span class="fc bfc" id="L30" title="All 2 branches covered.">		if (inputDate.isAfter(localDate)) {</span>
+<span class="fc" id="L31">			isFutureDate = true;</span>
+		}
+<span class="fc" id="L33">		return isFutureDate;</span>
+	}
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>

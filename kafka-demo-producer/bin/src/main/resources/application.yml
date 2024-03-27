@@ -1,0 +1,20 @@
+server:
+ port: 9192
+spring:
+ application:
+  name: KAFKA-PRODUCER
+ kafka:
+  topic:
+   name: CUSTOMER_TOPIC
+  producer:
+   bootstrap-servers: localhost:9092
+   key-serializer: org.apache.kafka.common.serialization.StringSerializer
+   value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+   #value-serializer: org.apache.kafka.common.serialization.StringSerializer
+logging:
+ level:
+  com.kafka.demo.producer: DEBUG
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka

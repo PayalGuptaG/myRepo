@@ -1,0 +1,37 @@
+{
+    "customers": [
+        {
+            "firstName": "Payal",
+            "lastName": "Gupta",
+            "email": "abc@gmail.com",
+            "contact": "1234",
+            "dob": "10.10.2990",
+            "statement": [
+                {
+                    "reference": 10,
+                    "accountNumber": "NL1234",
+                    "description": "Flowers for Rik Theu ",
+                    "startBalance": 44.85,
+                    "endBalance": 11,
+                    "transactionDate": "2025-08-12"
+                },
+                {
+                    "reference": 102,
+                    "accountNumber": "NL90ABNA0585647886",
+                    "description": "Clothes from Peter de Vries",
+                    "startBalance": 32.76,
+                    "endBalance": 81.79,
+                    "transactionDate": "2022-04-21"
+                },
+                {
+                    "reference": 101,
+                    "accountNumber": "NL90ABNA0585647886",
+                    "description": "Clothes from Peter de Vries",
+                    "startBalance": 32.76,
+                    "endBalance": 81.79,
+                    "transactionDate": "2021-04-21"
+                }
+            ]
+        }
+    ]
+}

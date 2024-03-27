@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0165b17a-5c3b-4869-9f34-bb9d073fa255" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2eE9zbGpxK2TIo2yPhGq87WznZ5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.KafkaProducerTests.sendMessageTest.executor": "Run",
+    "JUnit.KafkaProducerTests.sendMessageTestFail.executor": "Run",
+    "JUnit.KafkaProducerTests.sendMessageTestSuccess.executor": "Run",
+    "Maven.kafka-demo-producer [clean].executor": "Run",
+    "Maven.kafka-demo-producer [install].executor": "Run",
+    "Maven.kafka-realworld-demo-producer [clean].executor": "Run",
+    "Maven.kafka-realworld-demo-producer [install].executor": "Run",
+    "Maven.kafka-realworld-demo-producer [org.apache.maven.plugins:maven-install-plugin:3.1.1:install].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.KafkaDemoProducerApplication.executor": "Run",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/eclipse-workspace/kafka-demo-producer/pom.xml",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.kafka.demo.producer.service" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.KafkaDemoProducerApplication">
+    <configuration name="KafkaProducerTests.sendMessageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kafka-realworld-demo-producer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kafka.demo.producer.controller.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kafka.demo.producer.controller.service" />
+      <option name="MAIN_CLASS_NAME" value="com.kafka.demo.producer.controller.service.KafkaProducerTests" />
+      <option name="METHOD_NAME" value="sendMessageTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KafkaProducerTests.sendMessageTestFail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kafka-realworld-demo-producer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kafka.demo.producer.controller.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kafka.demo.producer.controller.service" />
+      <option name="MAIN_CLASS_NAME" value="com.kafka.demo.producer.controller.service.KafkaProducerTests" />
+      <option name="METHOD_NAME" value="sendMessageTestFail" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KafkaProducerTests.sendMessageTestSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kafka-realworld-demo-producer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kafka.demo.producer.controller.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kafka.demo.producer.controller.service" />
+      <option name="MAIN_CLASS_NAME" value="com.kafka.demo.producer.controller.service.KafkaProducerTests" />
+      <option name="METHOD_NAME" value="sendMessageTestSuccess" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KafkaDemoProducerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="kafka-realworld-demo-producer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kafka.demo.producer.KafkaDemoProducerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.KafkaProducerTests.sendMessageTestFail" />
+        <item itemvalue="JUnit.KafkaProducerTests.sendMessageTestSuccess" />
+        <item itemvalue="JUnit.KafkaProducerTests.sendMessageTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.9-corretto-17.0.9-4caba194b151-107bc6b7" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0165b17a-5c3b-4869-9f34-bb9d073fa255" name="Changes" comment="" />
+      <created>1711459134181</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711459134181</updated>
+      <workItem from="1711459135278" duration="11629000" />
+      <workItem from="1711482098507" duration="539000" />
+      <workItem from="1711482652378" duration="31000" />
+      <workItem from="1711493915462" duration="908000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/kafka/demo/producer/service/KafkaProducer.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/kafka/demo/producer/service/KafkaProducer.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/kafka/demo/producer/service/KafkaProducer.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
